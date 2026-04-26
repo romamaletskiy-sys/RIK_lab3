@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Survey output (optional — remove this line if you want to track it)
+survey_answers.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
