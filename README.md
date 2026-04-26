@@ -1,47 +1,47 @@
-# Lab 3 — Survey Form (PyQt6)
+# Лабораторна робота 3 — Форма опитування (PyQt6)
 
-A desktop **Survey Form** application built with Python and PyQt6 as part of a university Qt Framework lab.
+Десктопний застосунок **«Форма опитування»**, розроблений на Python з використанням PyQt6 в межах університетської лабораторної роботи з фреймворку Qt.
 
-## Features
+## Функціонал
 
-- Clean, modern UI using `QVBoxLayout` / `QHBoxLayout`
-- Three input fields: **Full Name**, **Age**, **Favorite Programming Language**
-- **Age validation** — must be a whole number between 1 and 120
-- **Language field** — editable `QComboBox` with a built-in list of popular languages (free-text input also allowed)
-- Answers are **appended** to `survey_answers.txt` with a timestamp
-- Success confirmation via `QMessageBox`; all fields clear after submission
+- Сучасний, чистий інтерфейс на основі `QVBoxLayout` / `QHBoxLayout`
+- Три поля введення: **Повне ім'я**, **Вік**, **Улюблена мова програмування**
+- **Валідація віку** — має бути цілим числом від 1 до 120
+- **Поле мови** — редагований `QComboBox` зі списком популярних мов (також підтримується ручне введення)
+- Відповіді **дописуються** у файл `survey_answers.txt` з міткою часу
+- Після збереження з'являється підтвердження через `QMessageBox`; всі поля очищуються
 
-## Requirements
+## Вимоги
 
 - Python 3.10+
 - PyQt6
 
-Install dependencies:
+Встановлення залежностей:
 
 ```bash
 pip install PyQt6
 ```
 
-## Running
+## Запуск
 
 ```bash
 python main.py
 ```
 
-## Output format (`survey_answers.txt`)
+## Формат виводу (`survey_answers.txt`)
 
 ```
 --- Submission [2026-04-27 02:30:46] ---
-Full Name : Jane Doe
+Full Name : Іванов Іван
 Age       : 21
 Fav. Lang : Python
 ```
 
-## Project structure
+## Структура проєкту
 
 ```
 lab3/
-├── main.py              # Application source
-├── survey_answers.txt   # Generated on first submission
+├── main.py              # Вихідний код застосунку
+├── survey_answers.txt   # Створюється після першого відправлення
 └── README.md
 ```
