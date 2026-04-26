@@ -14,7 +14,7 @@ class SurveyForm(QWidget):
         self.setWindowTitle("Survey Form")
         self.setMinimumWidth(420)
         self.setStyleSheet("""
-            QWidget {
+            SurveyForm {
                 background-color: #f5f5f5;
                 font-family: Segoe UI, Arial, sans-serif;
             }
